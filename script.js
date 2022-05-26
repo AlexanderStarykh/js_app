@@ -40,7 +40,7 @@ chooseExpenses();
 
 function chooseOptExpenses(){
     for (let i = 1; i <= 3; i++){
-        let questionsOptExpenses = prompt("Статья необязательный расходов?")ж
+        let questionsOptExpenses = prompt("Статья необязательный расходов?");
         appData.optionalExpenses[i] = questionsOptExpenses;      
     }    
 }
